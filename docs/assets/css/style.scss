@@ -3,5 +3,7 @@
 ---
 
 @import
+  "minima/custom-variables",
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+  "minima/initialize",
+  "minima/custom-styles";

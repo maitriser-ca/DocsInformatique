@@ -1,1 +1,37 @@
-// Placeholder to allow overriding predefined variables smoothly.
+// Pale pastel color scheme for DocsInformatique
+
+// Primary colors - soft pastels
+$brand-color: #9BB5D6 !default;          // Soft blue
+$brand-color-light: #D6E5F5 !default;    // Very light blue
+$brand-color-dark: #7A9BC8 !default;     // Slightly darker blue
+
+// Text colors
+$text-color: #5A5A5A !default;           // Soft gray text
+$background-color: #FEFEFE !default;     // Off-white background
+$content-color: #FAFBFC !default;        // Very light background
+
+// Link colors - soft pastels
+$link-base-color: #8FA8C7 !default;      // Soft blue links
+$link-visited-color: #A89BC7 !default;   // Soft purple for visited
+$link-hover-color: #7A9BC8 !default;     // Darker on hover
+
+// Accent colors - pale pastels
+$grey-color: #B8C5D1 !default;           // Soft blue-gray
+$grey-color-light: #E8EDF2 !default;     // Very light blue-gray  
+$grey-color-dark: #9AABB8 !default;      // Medium blue-gray
+
+// Border colors
+$border-color-01: #E1E8ED !default;      // Very light border
+$border-color-02: #D1DDE6 !default;      // Light border
+$border-color-03: #B8C5D1 !default;      // Medium border
+
+// Table colors
+$table-text-color: #5A5A5A !default;     // Soft text in tables
+$table-zebra-color: #F7F9FB !default;    // Very light stripe
+$table-header-bg-color: #EDF3F7 !default; // Light header background
+$table-header-border: #D1DDE6 !default;  // Light header border
+$table-border-color: #E1E8ED !default;   // Light table borders
+
+// Code colors - soft pastels
+$code-background-color: #F5F7FA !default; // Very light code background
+$code-text-color: #6B7280 !default;       // Medium gray code text

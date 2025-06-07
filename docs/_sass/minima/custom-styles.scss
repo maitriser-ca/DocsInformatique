@@ -1,2 +1,142 @@
-// Placeholder to allow defining custom styles that override everything else.
-// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+// Custom pastel styling for DocsInformatique
+
+// Header styling with gradient
+.site-header {
+  background: linear-gradient(135deg, #F7F9FB 0%, #EDF3F7 100%);
+  border-bottom: 2px solid #D6E5F5;
+  box-shadow: 0 2px 8px rgba(155, 181, 214, 0.1);
+}
+
+.site-title {
+  color: #7A9BC8 !important;
+  font-weight: 600;
+  
+  &:hover {
+    color: #6A89B5 !important;
+    text-decoration: none;
+  }
+}
+
+// Navigation styling
+.site-nav .page-link {
+  color: #8FA8C7;
+  
+  &:hover {
+    color: #7A9BC8;
+    text-decoration: none;
+  }
+}
+
+// Main content area
+.page-content {
+  background-color: #FEFEFE;
+}
+
+.wrapper {
+  background-color: rgba(250, 251, 252, 0.8);
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 12px rgba(155, 181, 214, 0.08);
+}
+
+// Enhanced heading styles
+h1, h2, h3, h4, h5, h6 {
+  color: #6A89B5;
+  font-weight: 600;
+  
+  &:hover {
+    color: #5A7AA5;
+  }
+}
+
+h1 {
+  border-bottom: 3px solid #D6E5F5;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  border-bottom: 2px solid #E1E8ED;
+  padding-bottom: 0.3rem;
+}
+
+// Link styling
+a {
+  color: #8FA8C7;
+  transition: color 0.3s ease;
+  
+  &:visited {
+    color: #A89BC7;
+  }
+  
+  &:hover {
+    color: #7A9BC8;
+    text-decoration: none;
+  }
+}
+
+// Code block styling
+pre, code {
+  background-color: #F5F7FA;
+  border: 1px solid #E1E8ED;
+  border-radius: 6px;
+  color: #6B7280;
+}
+
+pre {
+  box-shadow: 0 2px 6px rgba(155, 181, 214, 0.06);
+}
+
+// Blockquote styling
+blockquote {
+  border-left: 4px solid #D6E5F5;
+  background-color: #F7F9FB;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 6px 6px 0;
+  box-shadow: 0 2px 6px rgba(155, 181, 214, 0.06);
+}
+
+// Table styling
+table {
+  background-color: #FEFEFE;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(155, 181, 214, 0.08);
+}
+
+th {
+  background-color: #EDF3F7;
+  color: #6A89B5;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #F7F9FB;
+}
+
+// Footer styling
+.site-footer {
+  background: linear-gradient(135deg, #EDF3F7 0%, #F7F9FB 100%);
+  border-top: 2px solid #D6E5F5;
+  color: #8FA8C7;
+}
+
+.footer-heading {
+  color: #7A9BC8;
+}
+
+// Button-like elements
+.highlight .err {
+  background-color: #FFF2F2;
+  border: 1px solid #FFB3B3;
+}
+
+// Social media icons
+.social-media-list a {
+  color: #8FA8C7;
+  
+  &:hover {
+    color: #7A9BC8;
+  }
+}
