@@ -52,7 +52,10 @@ minima:
 
 # Build settings
 theme: minima
-
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima theme configuration
+minima:
+  skin: classic

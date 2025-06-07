@@ -1,37 +1,47 @@
-// Pale pastel color scheme for DocsInformatique
+// Grey-Sand Pastel Theme - Custom Variables
 
-// Primary colors - soft pastels
-$brand-color: #9BB5D6 !default;          // Soft blue
-$brand-color-light: #D6E5F5 !default;    // Very light blue
-$brand-color-dark: #7A9BC8 !default;     // Slightly darker blue
+// Color Palette - Calming grey-sand pastel tones
+$background-color: #faf9f7 !default;          // Warm off-white sand
+$text-color: #4a4a4a !default;                // Soft charcoal grey
+$brand-color: #8b8680 !default;               // Muted grey-brown
+$brand-color-light: #c4bcb7 !default;          // Calculated lighten($brand-color, 40%)
+$brand-color-dark: #5e5651 !default;            // Calculated darken($brand-color, 25%)
 
-// Text colors
-$text-color: #5A5A5A !default;           // Soft gray text
-$background-color: #FEFEFE !default;     // Off-white background
-$content-color: #FAFBFC !default;        // Very light background
+// Accent colors
+$accent-color: #a69c94 !default;              // Warm grey-beige
+$accent-light: #d4cfc8 !default;              // Light sand
+$accent-lighter: #e8e4de !default;            // Very light sand
+$accent-dark: #6b6258 !default;               // Dark sand-brown
 
-// Link colors - soft pastels
-$link-base-color: #8FA8C7 !default;      // Soft blue links
-$link-visited-color: #A89BC7 !default;   // Soft purple for visited
-$link-hover-color: #7A9BC8 !default;     // Darker on hover
+// Content area colors
+$content-bg: #ffffff !default;                // Pure white for content
+$sidebar-bg: #f5f3f0 !default;                // Light warm grey
+$border-color: #ddd8d2 !default;              // Soft border color
+$table-border-color: #e6e1db !default;        // Table borders
 
-// Accent colors - pale pastels
-$grey-color: #B8C5D1 !default;           // Soft blue-gray
-$grey-color-light: #E8EDF2 !default;     // Very light blue-gray  
-$grey-color-dark: #9AABB8 !default;      // Medium blue-gray
+// Typography
+$base-font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-size: 16px !default;
+$base-font-weight: 400 !default;
+$small-font-size: $base-font-size * 0.875 !default;
+$base-line-height: 1.6 !default;
 
-// Border colors
-$border-color-01: #E1E8ED !default;      // Very light border
-$border-color-02: #D1DDE6 !default;      // Light border
-$border-color-03: #B8C5D1 !default;      // Medium border
+// Code and syntax highlighting
+$code-bg: #f8f6f3 !default;                   // Light sand for code blocks
+$code-border: #e0dbd5 !default;               // Code block borders
 
-// Table colors
-$table-text-color: #5A5A5A !default;     // Soft text in tables
-$table-zebra-color: #F7F9FB !default;    // Very light stripe
-$table-header-bg-color: #EDF3F7 !default; // Light header background
-$table-header-border: #D1DDE6 !default;  // Light header border
-$table-border-color: #E1E8ED !default;   // Light table borders
+// Links
+$link-base-color: #7a6f66 !default;           // Muted brown for links
+$link-visited-color: $link-base-color !default;
+$link-hover-color: #665d56 !default;           // Calculated darken($link-base-color, 15%)
 
-// Code colors - soft pastels
-$code-background-color: #F5F7FA !default; // Very light code background
-$code-text-color: #6B7280 !default;       // Medium gray code text
+// Header and navigation
+$header-bg: $accent-lighter !default;          // Light sand header
+$nav-link-color: $text-color !default;
+$nav-link-hover: $accent-color !default;
+
+// Spacing
+$spacing-unit: 30px !default;
+$content-width: 800px !default;
+$on-palm: 600px !default;
+$on-laptop: 800px !default;
